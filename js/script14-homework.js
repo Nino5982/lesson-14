@@ -74,25 +74,26 @@ console.log(nameFunction);
 // function maxvalue(...aray) {
 //     let item = 0;
 // for (let value of aray) {
-//     if (value > item) {
+//     if (value >item) {
 //      item=value;
 //     }
 // }
 // return item;
 // }
-// maxvalue(10, 50, 6, 7, 8, 70, 11, 6, 3, 9);
+// let max = maxvalue(10, 50, 6, 7, 8, 70, 11,  6, 3, 9)
+// console.log(max);
     
 // // დაწერეთ ფუნქცია, რომელიც პარამეტრად მიიიღებს ერთ რიცხვს და 
 // გამოთვლის გადაცემული მნიშვნელობა კენტია თუ ლუწი; 
 // თუ ლუწია დააბრუნოს - ‘this number is even; 
 // თუ კენტია დააბრუნოს - this number is odd;
 
-
 // function func2(i) {
-//     if (i%2 == 0) return console.log('this number is even');
-//     else return console.log('this number is odd');
-// }
-// func2(91);
+//         if (i == 0) console.log('eror'); 
+//         else if (i%2 == 1)console.log('this number is odd');
+//         else console.log('this number is even');
+//     }
+//     func2(24);
 
 
 
@@ -102,10 +103,11 @@ console.log(nameFunction);
 
 // for ციკლის საშუალებით მიიღეთ reverse ვერისია, ანუ 5,4,3,2,1
 
+let array = [1, 2, 3, 4, 5];
+for (let a = array.length; a > 0; a--) {
+  console.log(a);
+}
 
-    // let array = [1,2,3,4,5];
-    // for (let index = array.length; index >=0; index--) {
-    // console.log(array[index]);}
 
 // ფუნქციის საშუალებით გამოთვალეთ უსერის ასაკი და დაამატეთ შემდეგი პირობა, 
 //  თუ გადაცემული ასაკი მეტია 18- ზე დააბრუნეთ - სრულლოვანი, 
