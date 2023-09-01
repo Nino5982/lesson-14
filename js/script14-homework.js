@@ -29,7 +29,7 @@
 //         numberSum += item;
 
 // }
-//     return numberSum;
+//     console.log(numberSum);
 // }
 
 // sum(10, 50, 6, 7, 8, 11, 6, 3, 9);
