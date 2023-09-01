@@ -11,7 +11,7 @@
 //             numberSum += item;
 //         }
 //     }
-//         return numberSum;
+//        console.log(numberSum);
 //     }
 
 //     sum(2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8);
