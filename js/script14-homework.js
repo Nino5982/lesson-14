@@ -41,30 +41,31 @@
 // თუ isloggedin არის true და false თუ isloggedin ფროფერთი არის false;
 
 
-// let user = {
-//     firstname: 'giorgi',
-//     lastname: 'saakadze',
-//     age: 32,
-//     isloggedin: true
-// }
-// function status1(i){
-//     i=user;
-//     if (user.isloggedin) {
-//                         return `${user.firstname} ${user.lastname}`;
-//                     }
-//                     else{return(false);}
-// }
-// let nameFunction = status1()
-// console.log(nameFunction);
+let user = {
+    firstname: 'giorgi',
+    lastname: 'saakadze',
+    age: 32,
+    isloggedin: true,
+}
+function status1(){
+    if (user.isloggedin==true) {
+                        return `${user.firstname} ${user.lastname}`;
+                    }
+                    else{return(false);}
+}
+let nameFunction = status1()
+console.log(nameFunction);
 
 // meore
-// let status = () => {
+// let status1 = () => {
     
 //             if (user.isloggedin) {
 //                 return `${user.firstname} ${user.lastname}`;
 //             }
 //             else{return(false);}
 //         }
+// let nameFunction = status1();
+// console.log(nameFunction);
 
 // შექმენით ფუნქცია რომელსაც გადაეცემა ერთი პარამეტრი.
 //  ეს პარამეტრი უნდა იყოს რიცხვების მასივი და ფუნქციამ 
